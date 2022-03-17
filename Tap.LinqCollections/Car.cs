@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Tap.LinqCollections
 {
-    internal class Car
+    public class Car
     {
         public int Id { get; set; }
         public String Brand { get; set; }
         public String Model { get; set; }
         public bool IsElectric { get; set; }
-        public int MaxSpeedKhm { get; set; }
-        public int AutonomyKm { get; set; }
+        public int MaxSpeedKmh { get; set; }
+        public int Autonomy { get; set; }
     }
 }
