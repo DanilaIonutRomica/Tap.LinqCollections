@@ -9,9 +9,9 @@ namespace Tap.LinqCollections
     public class CarService
     {
         private readonly ICarRepository carRepository;
-        public CarService()
+        public CarService(ICarRepository carRepository)
         {
-            this.carRepository = new CarRepository();
+            this.carRepository = carRepository;
         }
         public IEnumerable<Car> getCarsHighSpeed() 
         {

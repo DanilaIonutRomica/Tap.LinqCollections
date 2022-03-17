@@ -23,8 +23,5 @@ namespace Tap.LinqCollections
         }
 
     }
-    public interface ICarRepository
-    {
-        public List<Car> GetAll();
-    }
+    
 }
